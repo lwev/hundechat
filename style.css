@@ -1,0 +1,48 @@
+body{
+    background:rgb(247, 247, 247);
+    }
+img{max-width:100%}
+a{color:#FFF; text-decoration: none;}
+        .hedder{
+            font-size: large;
+        }
+        .card-header{ font-size:30px;}
+        textarea:focus-visible {
+            outline: -webkit-focus-ring-color auto 0px;
+        }
+        .post-new{
+            position: fixed;
+            top:0;
+            left: 0;
+            right:0;
+            bottom: 0;
+            display: none;
+        background: #FFF;
+        z-index: 9;
+        }
+        .profile-pic{
+            width: 50px;
+        height: 50px;
+        display: block;
+        border-radius: 50%;
+        float: left;
+        vertical-align: middle;
+        margin-right: 15px;
+        }
+        .footer-btn{
+            float: left;
+            margin:0 18px;
+            display: block;
+            text-align: center;
+            width: 25%;
+        }
+    .card{
+    background:rgb(69, 175, 181);
+    margin:10px;
+    color:#FFF;
+    }
+    .priview-image{
+      max-width: 150px;
+      border: thin solid #d1d1dd;
+      margin-right: 5px;
+    }
